@@ -6,34 +6,34 @@ Tác giả thu thập hơn 1,219 bài nghiên cứu từ các nguồn lớn như
 
 Nội dung chính của bài báo tập trung vào các hoạt động quan trọng trong Requirements Engineering như:
 
-Requirement elicitation (khai thác requirement)
-Requirement extraction (trích xuất requirement)
-Requirement classification (phân loại requirement)
-Requirement validation (kiểm tra requirement)
-Requirement prioritization (ưu tiên requirement)
+-Requirement elicitation (khai thác requirement)
+-Requirement extraction (trích xuất requirement)
+-Requirement classification (phân loại requirement)
+-Requirement validation (kiểm tra requirement)
+-Requirement prioritization (ưu tiên requirement)
 
 Hướng nghiên cứu phổ biến nhất là requirement classification. Machine Learning được dùng để phân loại:
 
-Functional Requirement (FR)
-Non-Functional Requirement (NFR)
-Security Requirement
-Performance Requirement
+-Functional Requirement (FR)
+-Non-Functional Requirement (NFR)
+-Security Requirement
+-Performance Requirement
 
 Các thuật toán thường được sử dụng gồm:
 
-SVM
-Random Forest
-Naive Bayes
-Decision Tree
-Deep Learning
-BERT và Transformer
+-SVM
+-Random Forest
+-Naive Bayes
+-Decision Tree
+-Deep Learning
+-BERT và Transformer
 
 Một nội dung rất quan trọng trong bài là Requirement Smell Detection và Ambiguity Detection. AI được dùng để phát hiện các requirement:
 
-mơ hồ,
-thiếu thông tin,
-khó kiểm thử,
-hoặc chứa từ ngữ không rõ nghĩa như “fast”, “efficient”, “user-friendly”.
+-mơ hồ,
+-thiếu thông tin,
+-khó kiểm thử,
+-hoặc chứa từ ngữ không rõ nghĩa như “fast”, “efficient”, “user-friendly”.
 
 Ví dụ:
 
@@ -43,12 +43,12 @@ AI sẽ nhận ra rằng requirement này không có tiêu chí đo lường c�
 
 Bài báo cũng cho thấy NLP đóng vai trò cốt lõi trong lĩnh vực này vì requirement thường được viết bằng ngôn ngữ tự nhiên. Các kỹ thuật phổ biến gồm:
 
-Tokenization
-POS Tagging
-Semantic Similarity
-Word Embedding
-BERT
-Transformer
+-Tokenization
+-POS Tagging
+-Semantic Similarity
+-Word Embedding
+-BERT
+-Transformer
 
 Kết quả nghiên cứu cho thấy sau năm 2018, số lượng nghiên cứu kết hợp AI và Requirements Engineering tăng rất mạnh nhờ sự phát triển của Deep Learning và Transformer.
 
@@ -61,11 +61,11 @@ chưa được áp dụng rộng rãi trong thực tế doanh nghiệp.
 
 Tổng kết lại, bài báo cho thấy Machine Learning và NLP đang trở thành công nghệ quan trọng trong Requirements Engineering, đặc biệt trong các bài toán:
 
-requirement classification,
-ambiguity detection,
-smell detection,
-validation,
-use case generation.
+-requirement classification,
+-ambiguity detection,
+-smell detection,
+-validation,
+-use case generation.
 
 Đây là bài nền tảng rất phù hợp cho sinh viên làm đề tài AI + Requirements Engineering.
 
@@ -85,24 +85,24 @@ Tác giả phân tích 74 nghiên cứu chính trong giai đoạn 2023–2024, t
 
 Bài báo cho thấy LLM đang được dùng trong nhiều hoạt động của Requirements Engineering như:
 
-Requirement elicitation
-Requirement classification
-Requirement validation
-Defect detection
-Use case generation
-Test case generation
+-Requirement elicitation
+-Requirement classification
+-Requirement validation
+-Defect detection
+-Use case generation
+-Test case generation
 
 Một ứng dụng nổi bật là Requirement Classification. LLM có thể phân loại:
 
-Functional Requirement
-Non-Functional Requirement
-Security Requirement
+-Functional Requirement
+-Non-Functional Requirement
+-Security Requirement
 
 Điểm mạnh của LLM là:
 
-không cần nhiều dữ liệu train,
-có khả năng zero-shot,
-hiểu ngữ cảnh tốt hơn traditional ML.
+-không cần nhiều dữ liệu train,
+-có khả năng zero-shot,
+-hiểu ngữ cảnh tốt hơn traditional ML.
 
 Ngoài ra, LLM còn được dùng để phát hiện lỗi requirement và requirement mơ hồ.
 
@@ -118,11 +118,11 @@ khó kiểm thử.
 
 Một hướng nghiên cứu rất nổi bật khác là Use Case Generation và Test Case Generation. LLM có khả năng tự động sinh:
 
-use case,
-user story,
-acceptance criteria,
-test scenario,
-test case.
+-use case,
+-user story,
+-acceptance criteria,
+-test scenario,
+-test case.
 
 Ví dụ:
 Requirement:
@@ -131,42 +131,42 @@ Requirement:
 
 LLM có thể sinh:
 
-use case flow,
-success flow,
-exception flow,
-test case tương ứng.
+-use case flow,
+-success flow,
+-exception flow,
+-test case tương ứng.
 
 Bài báo cũng nhấn mạnh Prompt Engineering là yếu tố cực kỳ quan trọng khi sử dụng LLM.
 
 Các kỹ thuật prompting phổ biến gồm:
 
-Zero-shot Prompting
-Few-shot Prompting
-Chain-of-Thought Prompting
+-Zero-shot Prompting
+-Few-shot Prompting
+-Chain-of-Thought Prompting
 
 Few-shot prompting thường cho kết quả tốt hơn trong:
 
-requirement classification,
-ambiguity detection,
-validation.
+-requirement classification,
+-ambiguity detection,
+-validation.
 
 Tuy nhiên, bài báo cũng chỉ ra nhiều hạn chế:
 
-kết quả phụ thuộc vào prompt,
-thiếu benchmark chuẩn,
-khó đánh giá giữa các nghiên cứu,
-LLM chưa đủ ổn định để thay thế hoàn toàn analyst.
+-kết quả phụ thuộc vào prompt,
+-thiếu benchmark chuẩn,
+-khó đánh giá giữa các nghiên cứu,
+-LLM chưa đủ ổn định để thay thế hoàn toàn analyst.
 
 Do đó, Human-in-the-loop vẫn rất cần thiết để:
 
-review,
-validation,
-refinement requirement.
+-review,
+-validation,
+-refinement requirement.
 
 Tổng kết lại, bài báo cho thấy LLM đang mở ra hướng phát triển mới cho Requirements Engineering. AI không chỉ hỗ trợ phân loại requirement mà còn có thể:
 
-phát hiện lỗi,
-kiểm tra requirement,
-sinh use case,
-sinh test case,
+-phát hiện lỗi,
+-kiểm tra requirement,
+-sinh use case,
+-sinh test case,
 hỗ trợ analyst trong toàn bộ quy trình phát triển phần mềm.
